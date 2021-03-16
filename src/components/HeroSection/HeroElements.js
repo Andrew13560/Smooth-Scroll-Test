@@ -8,7 +8,11 @@ display: flex;
 justify-content: center;
 align-items: center;
 padding: 0 30px;
+
+/* MIGHT BE FIX Below is original*/
+/* height: 970px; */
 height: 800px;
+
 position: relative;
 z-index: 1;
 

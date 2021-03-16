@@ -7,7 +7,7 @@ import { Link as LinkS } from 'react-scroll'
 
 // Navbar 
 export const Nav = styled.nav`
-background: #0B2545;
+background: ${({ scrollNav }) => (scrollNav ? '#0B2545' : 'transparent')};
 height: 80px;
 /* BUG FIX MAY NEED TO UNCOMMENT IF THERE ARE ISSUES LATER */
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -91,9 +91,9 @@ padding: 0 1rem;
 height: 100%;
 cursor: pointer;
 
+// the border bottom will be the underlining of the items in the navbar
 &.active{
-    // the border bottom will be the underlining of the items in the navbar
-    border-bottom: 3px solid #01bf71;
+    border-bottom: 3px solid #01BF71;
 }
 `;
 

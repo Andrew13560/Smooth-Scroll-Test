@@ -21,15 +21,15 @@ const Sidebar = ({ isOpen, toggle }) => {
                     {/* Sends to scroll links */}
                     <SidebarLink to="about" onClick={toggle}>
                         About
-                    </SidebarLink>
+                        </SidebarLink>
                     <SidebarLink to="discover" onClick={toggle}>
                         Listings
                     </SidebarLink>
                     <SidebarLink to="services" onClick={toggle}>
-                        Contact Us
+                        Services
                     </SidebarLink>
                     <SidebarLink to="signup" onClick={toggle}>
-                        Sign Up
+                        Contact Us
                     </SidebarLink>
                 </SidebarMenu>
                 {/* Used to center button */}

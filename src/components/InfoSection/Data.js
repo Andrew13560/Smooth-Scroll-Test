@@ -20,10 +20,10 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-    id: 'about',
+    id: 'discover',
     lightBg: true,
     lightText: false,
-    darkText: true,
+    // darkText: true,
     topLine: 'Listings',
     headline: 'Browse Our Beautiful And Affordable Mobile Homes',
     description: 'This page will be replaced with an list that will display our listings',
@@ -39,9 +39,9 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-    id: 'about',
-    lightBg: false,
-    lightText: true,
+    id: 'signup',
+    lightBg: true,
+    lightText: false,
     // lightTextDesc: true,
     topLine: 'Contact Us',
     headline: 'Get Started With Moving In By Contacting Us',
@@ -54,5 +54,5 @@ export const homeObjThree = {
     alt: 'Car',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: true
 };
