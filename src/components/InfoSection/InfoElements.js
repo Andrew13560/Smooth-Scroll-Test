@@ -12,7 +12,8 @@ background: ${({ lightBg }) => (lightBg ? '#8DA9C4' : '#0B2545')};
 export const InfoWrapper = styled.div`
 display: grid;
 z-index: 1;
-height: 860px;
+/* Originally height is 860 */
+height: 960px;
 width: 100%;
 max-width: 1100px;
 margin-right: auto;
