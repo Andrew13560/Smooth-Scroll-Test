@@ -8,6 +8,10 @@ import { Link as LinkS } from 'react-scroll'
 // Navbar 
 export const Nav = styled.nav`
 background: ${({ scrollNav }) => (scrollNav ? '#0B2545' : 'transparent')};
+
+/* This background will keep it blue and static */
+background: #0B2545; 
+
 height: 80px;
 /* BUG FIX MAY NEED TO UNCOMMENT IF THERE ARE ISSUES LATER */
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -90,6 +94,7 @@ text-decoration: none;
 padding: 0 1rem;
 height: 100%;
 cursor: pointer;
+margin: 0 0;
 
 // the border bottom will be the underlining of the items in the navbar
 &.active{
@@ -110,7 +115,7 @@ export const NavBtnLink = styled(LinkR)`
 border-radius: 50px;
 background: #01bf71;
 white-space: nowrap;
-padding: 10px 22px;
+padding: 10px 20px;
 color: #010606;
 font-size: 16px;
 outline: none;

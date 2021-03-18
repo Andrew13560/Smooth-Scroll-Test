@@ -80,6 +80,8 @@ color: #fff;
 font-size: 24px;
 text-align: center;
 max-width: 600px;
+/* added line spacing */
+line-height: 1.2;
 
 @media screen and (max-width: 768px){
     font-size: 24px;
