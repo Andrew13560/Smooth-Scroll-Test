@@ -27,7 +27,7 @@ export const homeObjTwo = {
     topLine: 'Listings',
     headline: 'Browse Our Beautiful And Affordable Mobile Homes',
     description: 'This page will be replaced with an list that will display our listings',
-    buttonLabel: 'Get Started',
+    buttonLabel: 'See Listings',
     // true: image will be on the left and text will be on the right
     // false: image will be on the right and the text will be on the left
     imgStart: false,
